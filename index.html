@@ -7,6 +7,17 @@
 
 <h1>Satya minimal music search engine</h1>
 <p>Search, listen and download millions of song without wasting bandwidth for webpage loading</p>
-
+<form onsubmit="searchSong()">
+<input id=" strSearch" placeholder="Please enter song name" value=""/>
+<input type="submit" value="Search"/> 
+</form>
+<script>
+function searchSong (){
+    if(document.getElementById("strSearch").value =="")
+    alert("Please enter song name to search")
+    else 
+    alert("Showing results for : "+document.getElementById("strSearch").value)
+}
+</script>
 </body>
 </html> 
