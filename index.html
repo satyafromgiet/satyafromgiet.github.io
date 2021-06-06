@@ -1,23 +1,64 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Satya Music Streaming</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+    <title>Satya Music Streaming</title>
 </head>
+
 <body>
 
-<h1>Satya minimal music search engine</h1>
-<p>Search, listen and download millions of song without wasting bandwidth for webpage loading</p>
-<form onsubmit="searchSong()">
-<input id=" strSearch" placeholder="Please enter song name"/>
-<input type="submit" value="Search"/> 
-</form>
-<script>
-function searchSong (){
-    if(document.getElementById("strSearch").value =="")
-    alert("Please enter song name to search")
-    else 
-    alert("Showing results for : "+document.getElementById("strSearch").value)
-}
-</script>
+    <h1>Satya minimal music search engine</h1>
+    <p>Search, listen and download millions of song without wasting bandwidth for webpage loading</p>
+    <form id="form" onsubmit="searchSong(event)">
+        <input id="strSearch" placeholder="Please enter song name" />
+        <!-- <input type="submit" value="Search" /> -->
+        <button onclick="searchSong(event)">Search</button>
+    </form>
+
+    <p id="demo">Fetch a file to change this text.</p>
+    <ul id="container"></ul>
+
 </body>
-</html> 
+<script>
+    searchSong = (event) => {
+        event.preventDefault();
+        var name = document.getElementById("strSearch").value;
+        if (name == "")
+            alert("Please enter song name to search")
+        else
+            searchSongAPI(name)
+    }
+
+    async function searchSongAPI(songName) {
+        let url = "https://jiosaavnsatya.vercel.app/search?song=" + songName
+        const response = await fetch(url, {
+            method: 'GET', // *GET, POST, PUT, DELETE, etc.
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            },
+        }).then(response => response.json());
+        console.log("RESPONE :::::", response);
+        document.getElementById("container").innerHTML = "";
+
+        response.map(data => {
+            let li = document.createElement("li");
+            let node = document.createElement('a');
+            node.setAttribute('href', data.song_image)
+            node.innerText = data.song_name
+            li.appendChild(node);
+            container.appendChild(li);
+
+        })
+
+
+
+
+    }
+
+</script>
+
+</html>
