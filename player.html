@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Music Player</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <link rel="stylesheet" href="player.css">
+</head>
+
+<body onload="getSongData()">
+  <img src="" id="background" />
+  <audio src="" id="song"></audio>
+
+  <div class="container">
+    <div class="box"></div>
+    <img src="" id="thumbnail" />
+
+    <img src="./assets/icons/play.png" onclick="playPause()" id="play-pause" />
+
+    <div class="song-artist" id="name"></div>
+    <div class="song-title" id="artist"></div>
+
+    <!-- Input element for progress bar - min=0 starting value of every song - max length will change per song so leave empty -->
+
+    <input type="range" id="progress-bar" min="0" max="" value="0" onchange="changeProgressBar()" />
+
+    <div class="currentTime"></div>
+    <div class="durationTime"></div>
+  </div>
+
+  <script src="player.js"></script>
+</body>
+<script>
+  getSongData = () => {
+    let songData = sessionStorage.getItem('songData')
+    songData = JSON.parse(songData)
+    console.log("SONG DATA :::::", songData)
+    document.getElementById('name').innerHTML = songData.song_name
+    document.getElementById('artist').innerHTML = songData.song_artist
+
+    document.getElementById('background').setAttribute('src', songData.song_image)
+    document.getElementById('thumbnail').setAttribute('src', songData.song_image)
+    document.getElementById('song').setAttribute('src', songData.download_links[0])
+
+
+
+  }
+</script>
+
+</html>

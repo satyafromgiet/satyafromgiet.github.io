@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+    <title>Satya Music Streaming</title>
+</head>
+
+<body onload="getSongData()">
+    <h1>Satya minimal music search engine</h1>
+    <p>Search, listen and download millions of song without wasting bandwidth for webpage loading</p>
+    <h2>SONG PAGE<h2>
+            <form>
+
+</body>
+
+<script>
+    getSongData = async () => {
+        let songData = await sessionStorage.getItem('songData')
+        console.log("SONG DATA ::::::", songData)
+    }
+</script>
+
+
+</html>

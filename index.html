@@ -4,23 +4,126 @@
 <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="style.css">
 
     <title>Satya Music Streaming</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            padding-top: 150px;
+            background: white;
+        }
+
+        button {
+            -moz-appearance: button;
+            -ms-appearance: button;
+            -o-appearance: button;
+            -webkit-appearance: button;
+            appearance: button;
+            text-decoration: none;
+            color: #000;
+            padding: 0.2em 0.4em;
+        }
+
+        head {
+            position: absolute;
+            background-color: blue;
+            color: white;
+            font-size: xx-small;
+            z-index: 1;
+        }
+
+        .main {
+            margin: auto;
+            width: 50%;
+            margin-top: 10%;
+        }
+
+        .main input,
+        button {
+            width: 75%;
+            border: 2px solid white;
+            border-right: 0px;
+            font-size: 18px;
+            padding: 12px;
+            background-color: transparent;
+            color: white;
+        }
+
+        .main input:hover {
+            opacity: .8;
+        }
+
+        .main button {
+            width: 25%;
+            background-color: rgb(136, 156, 77);
+            color: white;
+            transition: all 0.3s;
+            float: right;
+            border-left: 0px;
+        }
+
+        .main button:hover {
+            opacity: .8;
+        }
+
+
+        .container {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            filter: blur(15px);
+            z-index: -2;
+
+        }
+
+        .subcontainer {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, .4);
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 
-<body>
+<body id="body">
+    <img src="./assets/images/background.jpg" class="container" />
 
-    <h1>Satya minimal music search engine</h1>
-    <p>Search, listen and download millions of song without wasting bandwidth for webpage loading</p>
-    <form id="form" onsubmit="searchSong(event)">
-        <input id="strSearch" placeholder="Please enter song name" />
-        <!-- <input type="submit" value="Search" /> -->
-        <button onclick="searchSong(event)">Search</button>
-    </form>
+    <div class="subcontainer">
+        <!-- <p class="head">Music Buddy</p> -->
 
-    <p id="demo">Fetch a file to change this text.</p>
-    <ul id="container"></ul>
+        <form id="form" onsubmit="searchSong(event)">
+            <!-- <input id="strSearch" placeholder="Please enter song name" /> -->
+            <!-- <input type="submit" value="Search" /> -->
+            <!-- <button onclick="searchSong(event)">Search</button> -->
+            <div class="main">
 
+                <input type="text" name="Search" placeholder="Please enter song name" id="strSearch">
+                <button onclick="searchSong(event)">Search</button>
+            </div>
+        </form>
+
+
+        <ul id="container"></ul>
+    </div>
 </body>
 <script>
     searchSong = (event) => {
@@ -47,8 +150,18 @@
         response.map(data => {
             let li = document.createElement("li");
             let node = document.createElement('a');
-            node.setAttribute('href', data.song_image)
-            node.innerText = data.song_name
+            node.innerHTML =
+                `<div style=display: flex;
+  flex-direction: row; padding-left:100px align-items: center;>
+  <img src="` + data.song_image + `" style= width:100px;height:100px;border:2px solid red;
+  border-radius:25px;overflow: hidden;border-collapse: separate;/>
+  <b>`+ data.song_name + `</b>
+  </div>`
+            node.setAttribute('href', "player.html")
+            node.onclick = (() => {
+                sessionStorage.setItem("songData", JSON.stringify(data))
+            })
+
             li.appendChild(node);
             container.appendChild(li);
 
