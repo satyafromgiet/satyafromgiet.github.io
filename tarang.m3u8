@@ -1,13 +1,64 @@
-#EXTM3U 
-#EXTINF:3,Tarang TV  
-https://livetv.tarangplus.in/tarangtv-origin/live/tarangtv-origin/live_720p/chunks.m3u8 
-#EXTINF:3,Prarthana
-https://livetv.tarangplus.in/prarthana-origin/live/prarthana-origin/live_720p/chunks.m3u8 
-#EXTINF:3,Alankar
-https://livetv.tarangplus.in/alankar-origin/live/alankar-origin/live_720p/chunks.m3u8 
-#EXTINF:3,Tarang Music
-https://livetv.tarangplus.in/tarangmusic-origin/live/tarangmusic-origin/live_720p/chunks.m3u8 
-#EXTINF:3,OTV
-https://livetv.tarangplus.in/otv-origin/live/otv-origin/live_720p/chunks.m3u8
-#EXTINF:3,DD Odia
+#EXTINF:-1 tvg-id="198" tvg-name="Colors Oriya" tvg-type="Entertainment" group-title="TS-JioTV Entertainment" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Oriya.png"Colors Oriya
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=198
+#EXTINF:-1 tvg-id="631" tvg-name="MBC" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/MBC.png"MBC
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=631
+#EXTINF:-1 tvg-id="696" tvg-name="News18 Oriya" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Oriya.png"News18 Oriya
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=696
+#EXTINF:-1 tvg-id="702" tvg-name="DD Oriya" tvg-type="Entertainment" group-title="TS-JioTV Entertainment" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Oriya.png",DD Oriya
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=702
+#EXTINF:-1 tvg-id="718" tvg-name="Kanak News" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Kanak_TV.png"Kanak News
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=718
+#EXTINF:-1 tvg-id="779" tvg-name="Prameya News 7" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Prameya_News_7.png"Prameya News 7
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=779
+#EXTINF:-1 tvg-id="781" tvg-name="Kalinga TV" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Kalinga_TV.png"Kalinga TV
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=781
+#EXTINF:-1 tvg-id="799" tvg-name="Naxatra News" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Naxatra_News.png"Naxatra News
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=799
+#EXTINF:-1 tvg-id="1427" tvg-name="Nandighosha" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nandighosha.png"Nandighosha
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1427
+#EXTINF:-1 tvg-id="1481" tvg-name="Argus News" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Argus_TV.png"Argus News
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1481
+#EXTINF:-1 tvg-id="1692" tvg-name="Badakhabar" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Badakhabar.png"Badakhabar
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1692
+#EXTINF:-1 tvg-id="1956" tvg-name="Sidharth TV" tvg-type="Entertainment" group-title="TS-JioTV Entertainment" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_TV.png"Sidharth TV
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1956
+#EXTINF:-1 tvg-id="1957" tvg-name="Sidharth Gold" tvg-type="Movies" group-title="TS-JioTV Movies" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_Gold.png"Sidharth Gold
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1957
+#EXTINF:-1 tvg-id="1958" tvg-name="Sidharth Bhakti" tvg-type="Devotional" group-title="TS-JioTV Devotional" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_Bhakti.png"Sidharth Bhakti
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1958
+#EXTINF:-1 tvg-id="2010" tvg-name="Ekamra Nilach akra" tvg-type="Entertainment" group-title="TS-JioTV Entertainment" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Nilach_akra.png"Ekamra Nilach akra
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2010
+#EXTINF:-1 tvg-id="2011" tvg-name="Ekamra Bharat Odia" tvg-type="Infotainment" group-title="TS-JioTV Infotainment" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Bharat_Odia.png"Ekamra Bharat Odia
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2011
+#EXTINF:-1 tvg-id="2012" tvg-name="Paramatma" tvg-type="Devotional" group-title="TS-JioTV Devotional" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Paramatma.png"Paramatma
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2012
+#EXTINF:-1 tvg-id="2015" tvg-name="Ekamra Musiq" tvg-type="Music" group-title="TS-JioTV Music" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Music.png"Ekamra Musiq
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2015
+#EXTINF:-1 tvg-id="2016" tvg-name="Ekamra Cinema" tvg-type="Movies" group-title="TS-JioTV Movies" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Cinema.png"Ekamra Cinema
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2016
+#EXTINF:-1 tvg-id="2227" tvg-name="Jatra Ekamra" tvg-type="Entertainment" group-title="TS-JioTV Entertainment" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jatra_Ekamra.png"Jatra Ekamra
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2227
+#EXTINF:-1 tvg-id="2355" tvg-name="One Paschima" tvg-type="News" group-title="TS-JioTV News" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/One_Paschima.png"One Paschima
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2355
+#EXTINF:-1 tvg-id="3072" tvg-name="Shree Jagannath TV" tvg-type="Devotional" group-title="TS-JioTV Devotional" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shree_Jagannath_TV.png",Shree Jagannath TV
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3072
+#EXTINF:-1 tvg-id="3073" tvg-name="Ekamra Manoranjan" tvg-type="Entertainment" group-title="TS-JioTV Entertainment" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Manoranjan.png",Ekamra Manoranjan
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3073
+
+#EXTINF:-1 tvg-id="3115" tvg-name="Jay Jagannath TV" tvg-type="Devotional" group-title="TS-JioTV Devotional" tvg-language="Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jay_Jagannath.png",Jay Jagannath TV
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3115
+
+#EXTINF:-1 tvg-id="OTV" tvg-name="OTV" group-title="TS-JioTV News", OTV
+https://livetv.tarangplus.in/otv-origin/live/otv-origin/live_720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="TarangTV" tvg-name="Tarang TV" group-title="TS-JioTV Entertainment", Tarang TV
+https://livetv.tarangplus.in/tarangtv-origin/live/tarangtv-origin/live_720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Prarthana" tvg-name="Prarthana TV" group-title="TS-JioTV Devotional", Prarthana TV
+https://livetv.tarangplus.in/prarthana-origin/live/prarthana-origin/live_720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Alankar" tvg-name="Alankar TV" group-title="TS-JioTV Movies", Alankar TV
+https://livetv.tarangplus.in/alankar-origin/live/alankar-origin/live_720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="TarangMusic" tvg-name="Tarang Music" group-title="TS-JioTV Music", Tarang Music
+https://livetv.tarangplus.in/tarangmusic-origin/live/tarangmusic-origin/live_720p/chunks.m3u8
