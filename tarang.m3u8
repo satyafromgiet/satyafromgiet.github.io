@@ -1,72 +1,49 @@
 #EXTM3U
-#EXTINF:3,MBC
-https://jiotv.catchup.cdn.jio.com/dare_images/images/MBC.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/MBC.png",MBC
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=631
-#EXTINF:3,News18 Odia
-https://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Oriya.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Oriya.png",News18 Odia
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=696
-#EXTINF:3,DD Odia
-https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Oriya.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Oriya.png",DD Odia
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=702
-#EXTINF:3,Kanak News
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Kanak_TV.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Kanak_TV.png",Kanak News
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=718
-#EXTINF:3,Prameya News7
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Prameya_News_7.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Prameya_News_7.png",Prameya News7
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=779
-#EXTINF:3,Kalinga TV
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Kalinga_TV.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Kalinga_TV.png",Kalinga TV
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=781
-#EXTINF:3,Naxatra News
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Naxatra_News.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Naxatra_News.png",Naxatra News
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=799
-#EXTINF:3,Nandighosha TV
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Nandighosha.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nandighosha.png",Nandighosha TV
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1427
-#EXTINF:3,Argus News
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Argus_TV.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Argus_TV.png",Argus News
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1481
-#EXTINF:3,Bada Khabar
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Badakhabar.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Badakhabar.png",Bada Khabar
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1692
-#EXTINF:3,Jay Jagannath TV
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Jay_Jagannath.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jay_Jagannath.png",Jay Jagannath TV
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3115
-#EXTINF:3,Sidharth TV
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_TV.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_TV.png",Sidharth TV
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1956
-#EXTINF:3,Sidharth Gold
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_Gold.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_Gold.png",Sidharth Gold
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1957
-#EXTINF:3,Sidharth Bhakti
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_Bhakti.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sidharth_Bhakti.png",Sidharth Bhakti
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1958
-#EXTINF:3,Ekamra Nilachakra
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Nilach_akra.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Nilach_akra.png",Ekamra Nilachakra
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2010
-#EXTINF:3,Ekamra Bharat Odia
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Bharat_Odia.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Bharat_Odia.png",Ekamra Bharat Odia
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2011
-#EXTINF:3,Paramatma TV
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Paramatma.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Paramatma.png",Paramatma TV
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2012
-#EXTINF:3,Ekamra Music
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Music.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Music.png",Ekamra Music
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2015
-#EXTINF:3,Ekamra Cinema
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Cinema.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Cinema.png",Ekamra Cinema
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2016
-#EXTINF:3,Jatra Ekamra
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Jatra_Ekamra.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jatra_Ekamra.png",Jatra Ekamra
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2227
-#EXTINF:3,One Paschima
-https://jiotv.catchup.cdn.jio.com/dare_images/images/One_Paschima.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2355
-#EXTINF:3,Shree Jagannath TV
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Shree_Jagannath_TV.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shree_Jagannath_TV.png",Shree Jagannath TV
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3072
-#EXTINF:3,Ekamra Manoranjan
-https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Manoranjan.png
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Manoranjan.png",Ekamra Manoranjan
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3073
 #EXTINF:3,OTV
 https://livetv.tarangplus.in/otv-origin/live/otv-origin/live_720p/chunks.m3u8
