@@ -9,3 +9,5 @@ https://livetv.tarangplus.in/alankar-origin/live/alankar-origin/live_720p/chunks
 https://livetv.tarangplus.in/tarangmusic-origin/live/tarangmusic-origin/live_720p/chunks.m3u8 
 #EXTINF:3,OTV
 https://livetv.tarangplus.in/otv-origin/live/otv-origin/live_720p/chunks.m3u8
+#EXTINF:3,DD Odia
+plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=702
