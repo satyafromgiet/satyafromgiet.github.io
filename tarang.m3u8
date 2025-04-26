@@ -1,6 +1,6 @@
-
 #EXTM3U 
-#EXTINF:3,Tarang TV  https://livetv.tarangplus.in/tarangtv-origin/live/tarangtv-origin/live_720p/chunks.m3u8 
+#EXTINF:3,Tarang TV  
+https://livetv.tarangplus.in/tarangtv-origin/live/tarangtv-origin/live_720p/chunks.m3u8 
 #EXTINF:3,Prarthana
 https://livetv.tarangplus.in/prarthana-origin/live/prarthana-origin/live_720p/chunks.m3u8 
 #EXTINF:3,Alankar
