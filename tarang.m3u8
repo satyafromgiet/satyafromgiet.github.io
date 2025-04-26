@@ -23,7 +23,7 @@ plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1692
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2011
 #EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2355
-#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/OTV.png",OTV
+#EXTINF:3 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Odisha_TV_logo.svg/1200px-Odisha_TV_logo.svg.png",OTV
 https://livetv.tarangplus.in/otv-origin/live/otv-origin/live_720p/chunks.m3u8
 
 # Religious/Spiritual
@@ -35,7 +35,7 @@ plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1958
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2012
 #EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shree_Jagannath_TV.png",Shree Jagannath TV
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3072
-#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Prarthana_TV.png",Prarthana TV
+#EXTINF:3 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWHnlap4o6v6xJ8NMfnGOr8hjTgeINewQkUOUKjuctlh3QTvXqtRkbsvsz&s=10",Prarthana TV
 https://livetv.tarangplus.in/prarthana-origin/live/prarthana-origin/live_720p/chunks.m3u8
 
 # Entertainment/General
