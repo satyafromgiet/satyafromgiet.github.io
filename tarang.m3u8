@@ -23,7 +23,7 @@ plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1692
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2011
 #EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/One_Paschima.png",One Paschima
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2355
-#EXTINF:3 tvg-logo="https://via.placeholder.com/150x150.png?text=OTV+Logo",OTV
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/OTV.png",OTV
 https://livetv.tarangplus.in/otv-origin/live/otv-origin/live_720p/chunks.m3u8
 
 # Religious/Spiritual
@@ -35,7 +35,7 @@ plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=1958
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2012
 #EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shree_Jagannath_TV.png",Shree Jagannath TV
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3072
-#EXTINF:3 tvg-logo="https://via.placeholder.com/150x150.png?text=Prarthana+TV+Logo",Prarthana TV
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Prarthana_TV.png",Prarthana TV
 https://livetv.tarangplus.in/prarthana-origin/live/prarthana-origin/live_720p/chunks.m3u8
 
 # Entertainment/General
@@ -51,17 +51,17 @@ plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=3073
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2227
 #EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Oriya.png",DD Odia
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=702
-#EXTINF:3 tvg-logo="https://via.placeholder.com/150x150.png?text=Tarang+TV+Logo",Tarang TV
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Tarang_TV.png",Tarang TV
 https://livetv.tarangplus.in/tarangtv-origin/live/tarangtv-origin/live_720p/chunks.m3u8
 
 # Music
 #EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Music.png",Ekamra Music
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2015
-#EXTINF:3 tvg-logo="https://via.placeholder.com/150x150.png?text=Tarang+Music+Logo",Tarang Music
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Tarang_Music.png",Tarang Music
 https://livetv.tarangplus.in/tarangmusic-origin/live/tarangmusic-origin/live_720p/chunks.m3u8
 
 # Movies/Cinema
 #EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Cinema.png",Ekamra Cinema
 plugin://plugin.video.jiotv/resources/lib/main/play?channel_id=2016
-#EXTINF:3 tvg-logo="https://via.placeholder.com/150x150.png?text=Alankar+TV+Logo",Alankar TV
+#EXTINF:3 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Alankar_TV.png",Alankar TV
 https://livetv.tarangplus.in/alankar-origin/live/alankar-origin/live_720p/chunks.m3u8
