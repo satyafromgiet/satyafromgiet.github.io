@@ -48,7 +48,7 @@
 
     console.log("Final Song ::::::", finalSong)
     document.getElementById('name').innerHTML = finalSong.data[0].name
-    document.getElementById('artist').innerHTML = 'test'
+    document.getElementById('artist').innerHTML = finalSong.data[0]. artist.primary[0].name
 
     document.getElementById('background').setAttribute('src', songData.song_image)
     document.getElementById('thumbnail').setAttribute('src', finalSong.data[0].image[1].url)
