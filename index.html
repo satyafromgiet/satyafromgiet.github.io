@@ -155,7 +155,7 @@
         
         document.getElementById("container").innerHTML = "";
         document.getElementById("loader").innerHTML = "";
-        response?.data?.topQuery?.results?.map(data => {
+        response?.data?.songs?.results?.map(data => {
             let li = document.createElement("li");
             let node = document.createElement('a');
             node.innerHTML =
