@@ -155,14 +155,14 @@
         
         document.getElementById("container").innerHTML = "";
         document.getElementById("loader").innerHTML = "";
-        response?.data?.topQuery?. results?.map(data => {
+        response?.data?.topQuery?.results?.map(data => {
             let li = document.createElement("li");
             let node = document.createElement('a');
             node.innerHTML =
                 `<div style= padding-left:10px;align-items: center;margin-bottom:40px>
-  <img src="` + data.song_image + `" style= width:25vw;height:25vw;border:2px solid red;
+  <img src="` + data.image[0].url + `" style= width:25vw;height:25vw;border:2px solid red;
   border-radius:25px;overflow: hidden;border-collapse: separate;/>
-  <p style= font-size:20px;color:white;align-self: center>`+ data.song_name + `</p>
+  <p style= font-size:20px;color:white;align-self: center>`+ data.title+ `</p>
   </div>`
             node.setAttribute('href', "player.html")
             node.style.textDecoration = "none"
