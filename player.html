@@ -38,7 +38,14 @@
     let songData = sessionStorage.getItem('songData')
     songData = JSON.parse(songData)
     console.log("SONG DATA :::::", songData)
-    let finalSong = await fetch('https://saavn.dev/api/songs?ids='+songData.id)
+    const finalSong = await fetch('https://saavn.dev/api/songs?ids='+songData.id, {
+            method: 'GET', // *GET, POST, PUT, DELETE, etc.
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            },
+        }).then(response => response.json());
+
     console.log("Final Song ::::::", finalSong)
     document.getElementById('name').innerHTML = songData.song_name
     document.getElementById('artist').innerHTML = songData.song_artist
