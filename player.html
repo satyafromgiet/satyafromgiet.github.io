@@ -29,7 +29,7 @@
 
     <div class="currentTime"></div>
     <div class="durationTime"></div>
-    <div class="song-artist" id="Download">Download</div>
+    <a id="Download">Download HD Audio</a>
   </div>
 
   <script src="player.js"></script>
@@ -54,10 +54,11 @@
     document.getElementById('background').setAttribute('src', finalSong.data[0].image[2].url)
     document.getElementById('thumbnail').setAttribute('src', finalSong.data[0].image[2].url)
     document.getElementById('song').setAttribute('src', finalSong.data[0].downloadUrl[4].url)
-
+document.getElementById('Download').setAttribute('href', finalSong.data[0].downloadUrl[4].url)
 
 
   }
+
 </script>
 
 </html>
