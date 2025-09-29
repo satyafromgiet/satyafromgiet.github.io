@@ -23,7 +23,7 @@
 
     <div class="song-artist" id="name"></div>
     <div class="song-title" id="artist"></div>
-<div class="download-button" id="download-btn"></div>
+<div class="download-button" id="download-btn">Download</div>
     <input type="range" id="progress-bar" min="0" max="" value="0" onchange="changeProgressBar()" />
 
     <div class="currentTime"></div>
@@ -48,7 +48,7 @@
     console.log("Final Song ::::::", finalSong)
     document.getElementById('name').innerHTML = finalSong.data[0].name
     document.getElementById('artist').innerHTML = finalSong.data[0].artists.primary[0].name
-
+    
     document.getElementById('background').setAttribute('src', finalSong.data[0].image[2].url)
     document.getElementById('thumbnail').setAttribute('src', finalSong.data[0].image[2].url)
     document.getElementById('song').setAttribute('src', finalSong.data[0].downloadUrl[4].url)
