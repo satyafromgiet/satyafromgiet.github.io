@@ -24,7 +24,7 @@ trackTitles = [];
 
 let playing = true;
 
-function playPause() {
+function pausePlay() {
   if (playing) {
     play.style.display = "none";
     pause.style.display = "block";
