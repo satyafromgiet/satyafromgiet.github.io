@@ -83,6 +83,20 @@ body {
 
 }
 
+.download-button {
+    position: absolute;
+    z-index: 4;
+    color: rgb(193, 255, 6);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    bottom: 35%;
+    /* left: 28%; */
+    /* right: 5%; */
+    text-align: center;
+
+}
+
 /* style for play and pause images */
 #play-pause {
     position: absolute;
